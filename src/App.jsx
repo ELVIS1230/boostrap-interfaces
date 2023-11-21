@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { Modal } from './components/Modal'
 import { Table } from './components/table'
-import { Paginador } from './components/Paginador'
 import { OffCanvas } from './components/Offcanvas'
+import { ToastComponent } from './components/Toast'
 
 function App() {
   const gatitos = [
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className=''>
+      <ToastComponent />
       <div className='w-50 mx-auto d-flex p-2 justify-content-around'>
       <OffCanvas />
         <h2 className='text-white '>Registro de gatitos</h2>
