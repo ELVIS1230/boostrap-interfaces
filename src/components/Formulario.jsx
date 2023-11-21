@@ -57,9 +57,9 @@ export function Formulario({agregarGatos}) {
                     <select name='raza' value={nuevoDato.raza} onChange={handleChange} className="form-select" id="validationCustom03" required 
                     >
                         <option selected disabled value="">Elegir...</option>
-                        <option>Pichincha</option>
-                        <option>Azuay</option>
-                        <option>Bolivar</option>
+                        <option>Siamés</option>
+                        <option>Esfinge</option>
+                        <option>Persa</option>
 
                     </select>
                     <div className="invalid-feedback">
