@@ -3,7 +3,6 @@ import './App.css'
 import { Modal } from './components/Modal'
 import { Table } from './components/table'
 import { OffCanvas } from './components/Offcanvas'
-import { ToastComponent } from './components/Toast'
 
 function App() {
   const gatitos = [
