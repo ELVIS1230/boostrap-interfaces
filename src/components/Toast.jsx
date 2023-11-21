@@ -38,7 +38,7 @@ export function ToastComponent({eliminar}) {
                 <div style={{ position: 'absolute', bottom: '20px', right: 0 }}>
 
                         <div className="toast show border border-danger" role="alert" aria-live="assertive" aria-atomic="true">
-                            <div className="toast-header">
+                            <div className="toast-header bg-danger text-light">
                                 <strong className="me-auto">Bootstrap Toast</strong>
                                 <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                             </div>

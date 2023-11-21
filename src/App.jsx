@@ -4,7 +4,7 @@ import { Modal } from './components/Modal'
 import { Table } from './components/table'
 import { OffCanvas } from './components/Offcanvas'
 
-function App() {
+export function App() {
   const gatitos = [
     { id: 1, nombre: 'Franchezco', raza: 'Egipcio', edad: 52 },
     { id: 2, nombre: 'Jose', raza: 'Egipcio', edad: 2 },
@@ -39,4 +39,3 @@ function App() {
   )
 }
 
-export default App

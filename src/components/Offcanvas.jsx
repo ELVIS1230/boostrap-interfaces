@@ -1,7 +1,8 @@
 import { Paginador } from "./Paginador";
+import { PopoverExample } from "./Popover";
 
 export function OffCanvas () {
-
+    const texto = "Esto es una galeria con diferentes gatitos con la que se implementa un paginador para ir mostrando de poco a poco las imagenes" 
     return (
         <div>
              <a className="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -15,8 +16,10 @@ export function OffCanvas () {
         </div>
         <div className="offcanvas-body">
           <div className="text-truncate">
-           Esto es una galeria con diferentes gatitos con la que se utiliza un paginador para ir mostrando de poco a poco las imagenes
+           {texto}
+           <PopoverExample texto = {texto}/>
           </div>
+
         <Paginador />
         </div>
       </div>
