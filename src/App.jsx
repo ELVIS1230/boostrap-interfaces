@@ -30,7 +30,6 @@ function App() {
 
   return (
     <div className=''>
-      <ToastComponent />
       <div className='w-50 mx-auto d-flex p-2 justify-content-around'>
       <OffCanvas />
         <h2 className='text-white '>Registro de gatitos</h2>
