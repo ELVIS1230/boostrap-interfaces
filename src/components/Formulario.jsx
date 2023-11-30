@@ -33,19 +33,19 @@ export function Formulario({agregarGatos}) {
                 <div className="d-flex justify-content-around ">
                 <div className="col-md-4">
                     <label htmlFor="validationCustom01" className="form-label">Nombre</label>
-                    <input type="text" name='nombre' value={nuevoDato.nombre} onChange={handleChange} className="form-control text-ligth" id="validationCustom01" required 
+                    <input type="text" name='nombre' value={nuevoDato.nombre} onChange={handleChange} className="form-control text-ligth" id="validationCustom01" placeholder="Nombre" required 
                     // placeholder="Placeholder Input"
-                    style={{background: 'transparent', color:'white'}}/>
+                    style={{background: 'white', color:'black'}}/>
                     <div className="valid-feedback">
                         ¡Se ve bien!
                     </div>
                 </div>
                 <div className="col-md-3">
                     <label htmlFor="validationCustom05" className="form-label">Edad: </label>
-                    <input type="number" value={nuevoDato.edad} name='edad' onChange={handleChange} className="form-control" id="validationCustom05" required
-                    style={{background: 'transparent', color:'white'}} />
+                    <input type="number" value={nuevoDato.edad} name='edad' onChange={handleChange} className="form-control" id="validationCustom05" placeholder="Edad" required
+                    style={{background: 'whrite', color:'black'}} />
                     <div className="invalid-feedback">
-                        Proporcione un código postal válido.
+                        Proporcione un código válido.
                     </div>
                 </div>
                 </div>
